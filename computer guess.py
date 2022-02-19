@@ -9,7 +9,7 @@ def computer_guess(x):
             guess = random.randint(low, high)
         else:
             guess = low
-        reply = input(f'Is the {guess} high (type h), low(type l), or correct (tupe c)')
+        reply = input(f'Is the {guess} high (type h), low(type l), or correct (type c)')
         if reply == 'h':
             high = guess - 1
         elif reply == 'l':
